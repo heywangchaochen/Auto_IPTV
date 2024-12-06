@@ -9,6 +9,10 @@ on:
       - dev
       - gd
       - gd-test
+
+env:
+  TZ: Asia/Shanghai
+
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
